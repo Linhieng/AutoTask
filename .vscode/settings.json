@@ -1,0 +1,3 @@
+{
+    "code-runner.customCommand": "gcc $fileName -o $fileNameWithoutExt"
+}
