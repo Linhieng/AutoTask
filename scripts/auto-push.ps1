@@ -58,6 +58,7 @@ function auto_push($folderPath) {
 
 
 try {
+    $OutputEncoding = [console]::InputEncoding = [console]::OutputEncoding = New-Object System.Text.UTF8Encoding
     # 编写的代码可能报错
     auto_push("D:\remote-repo")
 } catch {
